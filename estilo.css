@@ -1,0 +1,50 @@
+.est1
+{
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	height: 30%;
+	background-color: pink;
+	top: 10%;
+	left: 35%;
+	
+}
+
+.esta
+{
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	height: 30%;
+	background-color: #69A4F2;
+	top: 10%;
+	left: 35%;
+	font-family: arial;
+	font-size: 80px;
+}
+
+.estb
+{
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	height: 30%;
+	background-color: #F8F873;
+	top: 10%;
+	left: 35%;
+	font-family: arial;
+	font-size: 80px;
+}
+
+.estc
+{
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	height: 30%;
+	background-color: #F644F9;
+	top: 10%;
+	left: 35%;
+	font-family: arial;
+	font-size: 80px;
+}

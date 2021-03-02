@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onkeyup="tec();">
+	<div id="div" class="est1"></div>
+	<center><input type="text" id="frase" placeholder="ingrese la frase"></center>
+	<script>
+		var tec=function()
+		{
+			if (event.code=="KeyA")
+			{
+				var frase=document.getElementById("frase").value;
+				var ola=document.getElementById("div").innerHTML=frase;
+				var div=document.getElementById("div");
+				div.className="esta";
+			}
+
+			if (event.code=="KeyB")
+			{
+				var frase=document.getElementById("frase").value;
+				var ola=document.getElementById("div").innerHTML=frase;
+				var div=document.getElementById("div");
+				div.className="estb";
+			}
+
+			if (event.code=="KeyC")
+			{
+				var frase=document.getElementById("frase").value;
+				var ola=document.getElementById("div").innerHTML=frase;
+				var div=document.getElementById("div");
+				div.className="estc"
+			}
+		}
+	</script>
+
+</body>
+</html>
